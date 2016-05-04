@@ -60,3 +60,7 @@ footer {
 .img-hover:hover {
     opacity: 0.8;
 }
+
+.img-banner{
+  margin: 0 auto;
+}
