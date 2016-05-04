@@ -75,3 +75,18 @@ footer {
   height: 2em;
   line-height: 2em;
 }
+
+.fa-facebook{
+  color: blue;
+  border-color: blue;
+}
+
+.fa-youtube{
+  color: red;
+  border-color: red;
+}
+
+.fa-github{
+  color: black;
+  border-color: black;
+}
