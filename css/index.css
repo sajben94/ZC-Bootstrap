@@ -66,8 +66,12 @@ footer {
   margin: 0 auto;
 }
 
+.table .fa{
+  font-size:   1.2em;
+}
 
-.fa{
+
+footer .fa {
   font-size:   2.5em;
   border:3px solid black;
   border-radius: 20%;
@@ -76,17 +80,17 @@ footer {
   line-height: 2em;
 }
 
-.fa-facebook{
+footer .fa-facebook{
   color: blue;
   border-color: blue;
 }
 
-.fa-youtube{
+footer .fa-youtube{
   color: red;
   border-color: red;
 }
 
-.fa-github{
+footer .fa-github{
   color: black;
   border-color: black;
 }
