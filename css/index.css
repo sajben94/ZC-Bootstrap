@@ -54,9 +54,7 @@ footer {
     text-align: center;
 }
 
-.img-portfolio {
-    margin-bottom: 30px;
-}
+
 
 .img-hover:hover {
     opacity: 0.8;
@@ -71,7 +69,38 @@ footer {
 }
 
 
-footer .fa {
+
+
+.portfolio{
+  text-align: center;
+
+}
+
+
+
+.portfolio .pivo{
+  /*font-size:17em;*/
+  color: #fff;
+  font-size:14.4em;
+  margin-bottom: 30px;
+  line-height: 1.5em;
+}
+ .portfolio .pivo-budvar{
+  font-size:7.5em;
+  line-height: 2.5em;
+}
+
+.arrow{
+  line-height: 7.9em;
+  font-size:   50px;
+}
+*{
+  /*outline: 2px solid red;*/
+}
+
+
+footer .pivo {
+  display: inline-block;
   font-size:   2.5em;
   border:3px solid black;
   border-radius: 20%;
@@ -80,17 +109,17 @@ footer .fa {
   line-height: 2em;
 }
 
-footer .fa-facebook{
+footer .pivo-facebook{
   color: blue;
   border-color: blue;
 }
 
-footer .fa-youtube{
+footer .pivo-youtube{
   color: red;
   border-color: red;
 }
 
-footer .fa-github{
+footer .pivo-github{
   color: black;
   border-color: black;
 }

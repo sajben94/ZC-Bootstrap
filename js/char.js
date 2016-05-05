@@ -1,4 +1,4 @@
-(function () {
+(function() {
 
     $("#chart-container").insertFusionCharts({
         type: "column2d",
@@ -12,47 +12,47 @@
                 "xAxisName": "Month",
                 "yAxisName": "Revenues",
                 //Making the chart export enabled in various formats
-                "exportEnabled" :"1",
+                "exportEnabled": "1",
                 "numberPrefix": "$",
                 "theme": "fint"
             },
 
             "data": [{
                 "label": "Jan",
-                    "value": "420000"
+                "value": "420000"
             }, {
                 "label": "Feb",
-                    "value": "810000"
+                "value": "810000"
             }, {
                 "label": "Mar",
-                    "value": "720000"
+                "value": "720000"
             }, {
                 "label": "Apr",
-                    "value": "550000"
+                "value": "550000"
             }, {
                 "label": "May",
-                    "value": "910000"
+                "value": "910000"
             }, {
                 "label": "Jun",
-                    "value": "510000"
+                "value": "510000"
             }, {
                 "label": "Jul",
-                    "value": "680000"
+                "value": "680000"
             }, {
                 "label": "Aug",
-                    "value": "620000"
+                "value": "620000"
             }, {
                 "label": "Sep",
-                    "value": "610000"
+                "value": "610000"
             }, {
                 "label": "Oct",
-                    "value": "490000"
+                "value": "490000"
             }, {
                 "label": "Nov",
-                    "value": "900000"
+                "value": "900000"
             }, {
                 "label": "Dec",
-                    "value": "730000"
+                "value": "730000"
             }]
         }
     });
