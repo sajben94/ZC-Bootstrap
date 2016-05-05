@@ -90,10 +90,7 @@ footer {
   line-height: 2.5em;
 }
 
-.arrow{
-  line-height: 7.9em;
-  font-size:   50px;
-}
+
 *{
   /*outline: 2px solid red;*/
 }
@@ -122,4 +119,26 @@ footer .pivo-youtube{
 footer .pivo-github{
   color: black;
   border-color: black;
+}
+
+
+@media screen and (max-width: 599px) {
+    .arrow {
+        font-size: 1.5em;
+        line-height: 7em;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 999px) {
+    .arrow {
+        font-size: 2em;
+        line-height: 6.5em;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .arrow {
+        font-size: 4em;
+        line-height: 5em;
+    }
 }
